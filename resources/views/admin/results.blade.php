@@ -3,7 +3,7 @@
 @section('content')
 <div class="container">
 
-    <h3 class="mb-4">Election Results Dashboard</h3>
+    <h3 class="mb-4">eVoting Results Dashboard</h3>
 
     {{-- Summary Cards --}}
     <div class="row mb-4">
