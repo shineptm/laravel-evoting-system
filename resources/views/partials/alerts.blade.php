@@ -15,7 +15,7 @@
 
     <button onclick="this.parentElement.remove()"
         class="absolute top-2 right-2 text-red-700 hover:text-red-900 font-bold">
-        X
+       X
     </button>
 </div>
 @endif
@@ -41,7 +41,7 @@
 
     <button onclick="this.parentElement.remove()"
         class="absolute top-2 right-2 text-red-700 hover:text-red-900 font-bold">
-         X
+        X
     </button>
 </div>
 @endif
