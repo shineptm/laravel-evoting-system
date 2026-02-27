@@ -70,7 +70,7 @@
 @endsection
 
 @section('scripts')
-<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.1/dist/chart.umd.min.js"></script>
 <script>
 document.addEventListener("DOMContentLoaded", function () {
     const canvas = document.getElementById('resultsChart');
@@ -87,6 +87,22 @@ document.addEventListener("DOMContentLoaded", function () {
             datasets: [{
                 label: 'Votes',
                 data: @json($data ?? []),
+                backgroundColor: [
+                    '#4CAF50',
+                    '#2196F3',
+                    '#FF9800',
+                    '#9C27B0',
+                    '#F44336',
+                    '#00BCD4'
+                ],
+                borderColor: [
+                    '#388E3C',
+                    '#1976D2',
+                    '#F57C00',
+                    '#7B1FA2',
+                    '#D32F2F',
+                    '#0097A7'
+                ],
                 borderWidth: 1
             }]
         },
